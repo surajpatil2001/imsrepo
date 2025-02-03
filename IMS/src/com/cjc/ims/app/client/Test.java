@@ -13,9 +13,10 @@ Cjc c=new Karvenagar();
 while(true)
 {
 System.out.println("Enter 1 : addCourse \n 2 :  viewCourse \n 3 : addFaculty \n 4 : viewFaculty \n 5 : addBatch \n 6 : viewBatch \n 7 :addStudent \n 8 : viewStudent");
+
 System.out.println("Enter Your Choice:");
 int ch=sc.nextInt();
-
+System.out.println();
 if(ch==1)
 {
 c.addCourse();
